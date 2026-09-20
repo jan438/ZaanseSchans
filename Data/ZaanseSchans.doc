@@ -1,3 +1,23 @@
 Paauw 16e eeuw afm: 640 x 425   scale: 320 x 212.5
 
 Paauw todo afm: 1200 x 873      scale: 600 X 436.5
+
+jpg to svg
+
+inkscape starten
+
+new document
+
+document properties  afmetingen invullen
+
+import jpg   open  OK
+
+select raster jpg
+
+path select
+
+trace bitmap
+
+Apply
+
+Save
