@@ -28,9 +28,7 @@ if sys.platform[0] == 'w':
     path = "C:/Users/janbo/OneDrive/Documents/GitHub/ZaanseSchans"
 os.chdir(path)
 my_canvas = canvas.Canvas("PDF/ZaanseSchans.pdf")
-renderPDF.draw(scaleSVG("SVG/paauw.svg", 0.25), my_canvas, 300.0, 300.0)
-renderPDF.draw(scaleSVG("SVG/molen.svg", 0.25), my_canvas, 100.0, 300.0)
-renderPDF.draw(scaleSVG("SVG/molen-de-pauw_cropag.svg", 0.25), my_canvas, 100.0, 500.0)
-my_canvas.drawImage("Photos/de-pauw.jpg", 100, 100, 320, 212.5)
+my_canvas.drawImage("Photos/de-pauw.jpg", 50, 600, 320, 212.5)
+renderPDF.draw(scaleSVG("SVG/molen-de-pauw_cropag.svg", 0.25), my_canvas, 300, 100)
 my_canvas.save()
 key = input("Wait")
