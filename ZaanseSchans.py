@@ -29,6 +29,7 @@ if sys.platform[0] == 'w':
 os.chdir(path)
 my_canvas = canvas.Canvas("PDF/ZaanseSchans.pdf")
 my_canvas.drawImage("Photos/de-pauw.jpg", 50, 600, 320, 212.5)
+my_canvas.drawImage("Photos/2018_de Paauw.jpg", 350, 600, 320, 212.5)
 renderPDF.draw(scaleSVG("SVG/molen-de-pauw_cropag.svg", 0.25), my_canvas, 300, 100)
 my_canvas.save()
 key = input("Wait")
